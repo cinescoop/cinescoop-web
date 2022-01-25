@@ -6,9 +6,8 @@ import {
 } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
 import { useState } from "react";
-import styled from "styled-components";
 
-import { SearchProps } from "./TopBar";
+import { SearchProps } from "./Navigation";
 
 function Search({ version }: SearchProps) {
   const [visible, setVisible] = useState(false);

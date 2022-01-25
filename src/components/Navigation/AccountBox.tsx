@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { AiOutlineUser } from "react-icons/ai";
 
-import { AccountBoxProps } from "./TopBar";
+import { AccountBoxProps } from "./Navigation";
 
 function AccountBox({ login, name }: AccountBoxProps) {
   return (
