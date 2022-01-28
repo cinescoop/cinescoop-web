@@ -5,8 +5,10 @@ import {
   Center,
   Divider,
   Flex,
+  FormControl,
+  FormLabel,
   Heading,
-  Img,
+  Input,
   Text,
 } from "@chakra-ui/react";
 
@@ -19,6 +21,8 @@ import GenreList from "../src/components/lists/GenreList";
 import Navigation from "../src/components/Navigation/Navigation";
 import HomeText from "../src/components/HomeText";
 import Cinema from "../src/components/Cinema";
+import Footer from "../src/components/Footer";
+import EmailForm from "../src/components/EmailForm";
 
 interface IHomeProps {
   trending: ITrending[];
@@ -59,6 +63,10 @@ const Home: NextPage<IHomeProps> = ({
 
       <GenreList genres={genres} />
       <Cinema />
+
+      <EmailForm />
+
+      <Footer />
     </>
   );
 };
