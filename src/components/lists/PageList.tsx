@@ -7,8 +7,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import SwiperCore, { Parallax, Pagination, Autoplay } from "swiper";
 
-import { ITrending } from "../interfaces";
-import { IMAGE_URL } from "../../pages/api/useFetchGenre";
+import { ITrending } from "../../interfaces";
+import { IMAGE_URL } from "../../../pages/api/useFetchGenre";
 
 SwiperCore.use([Parallax, Pagination, Autoplay]);
 
